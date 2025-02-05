@@ -11,7 +11,7 @@ app.use('/', httpProxy.createProxyServer({
 }));
 
 // Set the port for your server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => {
   console.log(`Proxy server is running on port ${PORT}`);
