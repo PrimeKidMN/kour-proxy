@@ -1,15 +1,14 @@
 {
   "name": "krunker-proxy",
   "version": "1.0.0",
-  "description": "A proxy for Krunker.io game",
-  "main": "server.js",
+  "description": "Krunker.io Proxy",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "dependencies": {
-    "express": "^4.17.1",
-    "http-proxy-middleware": "^2.0.1"
-  },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
