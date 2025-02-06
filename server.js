@@ -11,7 +11,7 @@ app.use('/', (req, res, next) => {
 
 // Proxy configuration with logging and timeout for responses
 app.use('/', createProxyMiddleware({
-  target: 'https://kour.io',    // Target Krunker.io
+  target: 'https://kour.io',    // Target Kour.io
   changeOrigin: true,              // Ensure the origin is set correctly
   secure: false,                   // Disable SSL verification (only if needed)
   timeout: 30000,                  // Timeout after 30 seconds if no response
@@ -20,7 +20,7 @@ app.use('/', createProxyMiddleware({
     console.log(`Proxying request for: ${req.url}`);
   },
   onProxyRes: (proxyRes, req, res) => {
-    // Log the status code of the response from Krunker
+    // Log the status code of the response from Kour
     console.log(`Response from Krunker: ${proxyRes.statusCode} for ${req.url}`);
   },
 }));
