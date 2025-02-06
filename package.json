@@ -7,8 +7,10 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "cloudscraper": "^4.6.0",
     "express": "^4.21.2",
-    "http-proxy-middleware": "^3.0.3"
+    "http-proxy-middleware": "^3.0.3",
+    "pupeteer": "^0.0.1"
   },
   "engines": {
     "node": ">=14.0.0"
