@@ -1,7 +1,7 @@
 {
-  "name": "krunker-proxy",
+  "name": "kour-proxy",
   "version": "1.0.0",
-  "description": "Krunker.io Proxy",
+  "description": "Kour.io Proxy",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
